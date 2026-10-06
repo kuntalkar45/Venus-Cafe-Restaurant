@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venus Cafe & Restaurant</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo"><i class="fa-solid fa-mug-hot"></i> Venus Cafe</a>
+            <nav class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#features">Features</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact" class="btn-nav">Reserve Table</a>
+            </nav>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Savor the Art of Fine Dining & Coffee</h1>
+            <p>Welcome to Venus Cafe & Restaurant, where exceptional flavors, cozy ambiance, and warm hospitality come together.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Explore Menu</a>
+                <a href="#contact" class="btn btn-secondary">Book a Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80" alt="Cafe Ambiance">
+            </div>
+            <div class="about-text">
+                <span class="subtitle">Our Story</span>
+                <h2>A Perfect Blend of Passion & Taste</h2>
+                <p>Founded with a love for authentic culinary creations and artisanal coffee, Venus Cafe & Restaurant offers a retreat from the everyday hustle. Every dish is crafted from scratch using the finest ingredients, and every cup of coffee is brewed to absolute perfection.</p>
+                <div class="about-features">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-seedling"></i>
+                        <div>
+                            <h4>Fresh Ingredients</h4>
+                            <p>Locally sourced, organic produce daily.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-fire-burner"></i>
+                        <div>
+                            <h4>Master Chefs</h4>
+                            <p>Culinary artistry with global flair.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Discover</span>
+                <h2>Our Delicious Menu</h2>
+                <p>Explore our carefully curated selection of coffees, meals, and sweet treats.</p>
+            </div>
+
+            <!-- Menu Categories Tabs (Visual only for static layout) -->
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=400&q=80" alt="Espresso">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Signature Espresso</h4>
+                            <span class="price">$4.50</span>
+                        </div>
+                        <p>Rich, bold espresso shot with a smooth, velvety crema layer.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80" alt="Steak">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Grilled Ribeye Steak</h4>
+                            <span class="price">$28.00</span>
+                        </div>
+                        <p>Tender premium cut served with garlic butter and roasted vegetables.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&q=80" alt="Pizza">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Truffle Mushroom Pizza</h4>
+                            <span class="price">$18.50</span>
+                        </div>
+                        <p>Hand-tossed crust topped with wild mushrooms, truffle oil, and mozzarella.</p>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=400&q=80" alt="Dessert">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Classic Tiramisu</h4>
+                            <span class="price">$7.50</span>
+                        </div>
+                        <p>Layers of espresso-soaked ladyfingers and rich mascarpone cream.</p>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=400&q=80" alt="Smoothie">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Berry Bliss Smoothie</h4>
+                            <span class="price">$6.50</span>
+                        </div>
+                        <p>Blended mixed berries, Greek yogurt, and a drizzle of organic honey.</p>
+                    </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="menu-card">
+                    <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80" alt="Pasta">
+                    <div class="menu-details">
+                        <div class="menu-title-price">
+                            <h4>Creamy Carbonara</h4>
+                            <span class="price">$16.00</span>
+                        </div>
+                        <p>Traditional Italian pasta with crispy pancetta, egg yolk, and pecorino.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extra Features Section -->
+    <section id="features" class="features section-padding">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Why Choose Us</span>
+                <h2>The Venus Experience</h2>
+                <p>We go beyond just food to provide a memorable lifestyle experience.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <i class="fa-solid fa-wifi"></i>
+                    <h3>High-Speed Wi-Fi</h3>
+                    <p>Perfect for remote workers, digital nomads, and casual web browsing.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-music"></i>
+                    <h3>Live Acoustic Nights</h3>
+                    <p>Enjoy soothing live music performances every weekend evening.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-cake-candles"></i>
+                    <h3>Private Events</h3>
+                    <p>Book our venue for birthdays, anniversaries, and corporate gatherings.</p>
+                </div>
+                <div class="feature-box">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Valet Parking</h3>
+                    <p>Hassle-free parking service available for all our dine-in guests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Reviews Section -->
+    <section id="reviews" class="reviews section-padding bg-light">
+        <div class="container">
+            <div class="section-title">
+                <span class="subtitle">Testimonials</span>
+                <h2>What Our Guests Say</h2>
+            </div>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Venus Cafe is my absolute favorite spot. The ambiance is breathtaking, and their signature espresso and truffle pizza are out of this world!"</p>
+                    <h4>— Emily Watson</h4>
+                </div>
+                <div class="review-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Amazing food quality and top-notch service. Perfect environment to spend quality time with friends or catch up on some work."</p>
+                    <h4>— Liam Johnson</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Reservation Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="container contact-grid">
+            <div class="contact-info">
+                <span class="subtitle">Get in Touch</span>
+                <h2>Reserve Your Table Today</h2>
+                <p>Have questions, want to book a private event, or reserve a table? Reach out to us or fill out the booking form.</p>
+                
+                <ul class="info-list">
+                    <li><i class="fa-solid fa-phone"></i> +91 xxxxxxxx</li>
+                    <li><i class="fa-solid fa-envelope"></i> contact@XYZ.com</li>
+                    <li><i class="fa-solid fa-clock"></i> Mon - Sun: 8:00 AM - 11:00 PM</li>
+                </ul>
+            </div>
+            <div class="contact-form-wrapper">
+                <form class="booking-form">
+                    <h3>Table Reservation</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Number of Guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="4">4 People</option>
+                            <option value="6">6+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Venus Cafe & Restaurant. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple JS toggle for Mobile Menu -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
